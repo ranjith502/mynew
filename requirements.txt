@@ -1,0 +1,3 @@
+streamlit==1.14.1
+bing-image-downloader
+tensorflow==2.9.2

@@ -1,0 +1,3 @@
+docker rmi -f $(docker images -aq) to remove all images
+docker rm -vf $(docker ps -aq) to remove all contaniers
+docker stop $(docker ps -a -q) stop all containers
